@@ -4,19 +4,32 @@
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "MIT",
+    "minimum-stability": "stable",
+    "support": {
+        "source": "https://github.com/miragesoft/yii2-smartmenus.git",
+        "issues": "https://github.com/miragesoft/yii2-smartmenus/issues"
+    },
     "authors": [
         {
             "name": "Mirage Studio TH",
-            "email": "miragestudioth@gmail.com"
+            "email": "miragestudioth@gmail.com",
+            "role" : "Developer"
         }
     ],
     "require": {
+        "php": ">=5.4.0",
         "yiisoft/yii2": "*",
         "drmonty/smartmenus": "*"
     },
     "autoload": {
         "psr-4": {
             "mirage\\smartmenus\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
         }
     }
 }
