@@ -1,0 +1,22 @@
+{
+    "name": "mirage/yii2-smartmenus",
+    "description": "Yii2 with smart menu js.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mirage Studio TH",
+            "email": "miragestudioth@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "drmonty/smartmenus": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mirage\\smartmenus\\": ""
+        }
+    }
+}
